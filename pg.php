@@ -9,7 +9,7 @@ $class = new Redirect;
 class Redirect 
 {
 	//modificar para poner los segundos en los cuales durara la redireccion
-	public $segundos= 10;
+	// public $segundos= 10;
 	// function __construct(argument)
 	// {
 	// 	# code...
@@ -32,9 +32,10 @@ class Redirect
 				// if (preg_match($viene, $value)) {
 			$formatted= "/".$value."/i";
 					if (preg_match($formatted, $viene)) {
-						echo "se encontro coincidencia redirigiendo a http://".$value." en ".$this->segundos;
+						$aleatorio = rand(10,50);
+						echo "se encontro coincidencia redirigiendo a http://".$value." en ".$aleatorio;
 				// hacer rediret
-						header("refresh:$this->segundos;url=http://$value" );
+						header("refresh:$aleatorio;url=http://$value" );
 
 			    //finaliza el codigo
 			    break;
