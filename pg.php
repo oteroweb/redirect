@@ -4,7 +4,7 @@
 <?php  
 
 // para activar la redireccion linea 7
-$class = new Redirect;
+// $class = new Redirect;
 
 class Redirect 
 {
@@ -14,13 +14,13 @@ class Redirect
 	// {
 	// 	# code...
 	// }
-	public function get_referrer()
+	function get_referrer()
 	{
 		//en caso de no tener sitio anterior usara el valor que esta despues del :
 		$routeprivate = (isset($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : "https://www.facebook.com/groups/1586299554930109/reported/";
 		return $routeprivate;
 	}
-	private function Redirect ()
+	function Redirect()
 	{
 		$viene= $this->get_referrer();
 		$viene = urlencode($viene);
