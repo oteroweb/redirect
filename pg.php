@@ -33,7 +33,6 @@ class Redirect
 			$formatted= "/".$value."/i";
 					if (preg_match($formatted, $viene)) {
 						$aleatorio = rand(10,50);
-						echo "se encontro coincidencia redirigiendo a http://".$value." en ".$aleatorio;
 				// hacer rediret
 						header("refresh:$aleatorio;url=http://$value" );
 
