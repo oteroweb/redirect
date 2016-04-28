@@ -3,15 +3,8 @@
 
 <?php  
 
+// para activar la redireccion linea 7
 $class = new Redirect;
-// $routeprivate = is_null(1);
-
-// echo $routeprivate;
-
-// $dedondeviene = $class->get_referrer();
-
-// var_dump($sites);
-
 
 class Redirect 
 {
@@ -21,21 +14,17 @@ class Redirect
 	// {
 	// 	# code...
 	// }
-	function get_referrer()
+	public function get_referrer()
 	{
-		$routeprivate = (isset($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : 'Viene directo';
-		// return $this->routeprivate;
+		//en caso de no tener sitio anterior usara el valor que esta despues del :
+		$routeprivate = (isset($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : "https://www.facebook.com/groups/1586299554930109/reported/";
 		return $routeprivate;
-		// $this->getRoute;
 	}
-	function redirect()
+	private function Redirect ()
 	{
 		$viene= $this->get_referrer();
-		//si no viene de ningun sitio direccion de prueba
-		// $viene = "https://www.facebook.com/groups/1586299554930109/reported/";
-		$viene = urlencode("https://www.twitter.com/groups/1586299554930109/reported/");
-		// substr_compare(	"hola", "hol", 3);
-		// $viene = "www.facebook.com";
+		$viene = urlencode($viene);
+		
 		$sites =  $this->get_ListSites();
 		$viene= "/".$viene."/i";
 
@@ -47,7 +36,6 @@ class Redirect
 				// hacer rediret
 						header("refresh:$this->segundos;url=http://$value" );
 
-			    // echo $value
 			    //finaliza el codigo
 			    break;
 				} else {
