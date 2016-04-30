@@ -6,6 +6,33 @@
 // para activar la redireccion linea 7
 $class = new Redirect;
 
+
+
+
+
+// if(!isset($text)){$text=0;}
+
+// $nombre_fichero = "counter.txt";
+// $gestor = fopen($nombre_fichero, "r");
+// $contenido = fread($gestor, filesize($nombre_fichero));
+// // echo $contenido;
+// $cantidadredireccion = 4;
+// if ($contenido > $cantidadredireccion) {
+// 	echo "mayor que".$cantidadredireccion;
+// }
+// else {
+// fclose($gestor);
+// 	$open = fopen("counter.txt","w+"); 
+// $text = $contenido + 1;
+// fwrite($open, $text); 
+// fclose($open); 
+// }
+
+
+
+
+
+
 // var_dump($sites[0]);
 
 
@@ -49,7 +76,27 @@ class Redirect
 				$aleatoriositio = $value[rand(0, $count)];
 			}
 					// hacer rediret
+
+
+			if(!isset($text)){$text=0;}
+
+$nombre_fichero = "counter.txt";
+$gestor = fopen($nombre_fichero, "r");
+$contenido = fread($gestor, filesize($nombre_fichero));
+// echo $contenido;
+$cantidadredireccion = 4;
+if ($contenido > $cantidadredireccion) {
+	echo "mayor que".$cantidadredireccion;
+}
+else {
+fclose($gestor);
+	$open = fopen("counter.txt","w+"); 
+$text = $contenido + 1;
+fwrite($open, $text); 
+fclose($open); 
+echo "menor vamos a redireccionar";
 						header("refresh:$aleatorio;url=http://$aleatoriositio" );
+}
 
 			    //finaliza el codigo
 			    break;
