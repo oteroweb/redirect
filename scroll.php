@@ -119,14 +119,25 @@ Donec cursus nulla sit amet velit tempus, nec dapibus lectus interdum. Phasellus
 //en segundos y luego se transforma a milisegundos multiplicandose por mil
 var tiempo = 1;
 //tiempo aleatoro
-var tiempo = Math.random()*10;
+// var tiempo = Math.random()*10;
 //cantidad de pixeles por desplazamiento
 var pixel = 200;
+var pixelhasta = 600;
 	$(document).ready(function () {
 		console.log(tiempo);
+
+
     setInterval(function () {
         var iScroll = $(window).scrollTop();
-        iScroll = iScroll + pixel;
+       
+
+        if (iScroll<pixelhasta) {
+        	 iScroll = iScroll + pixel;
+        	console.log("baja");
+        }
+        else {console.log("sube");
+ iScroll = iScroll - pixel;
+    }
     	console.log(iScroll);
         $('html, body').animate({
             scrollTop: iScroll
