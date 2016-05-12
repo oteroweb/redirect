@@ -119,7 +119,7 @@ Donec cursus nulla sit amet velit tempus, nec dapibus lectus interdum. Phasellus
 //en segundos y luego se transforma a milisegundos multiplicandose por mil
 var tiempo = 1;
 //tiempo aleatoro
-var tiempo = Math.random();
+var tiempo = Math.random()*10;
 //cantidad de pixeles por desplazamiento
 var pixel = 200;
 	$(document).ready(function () {
