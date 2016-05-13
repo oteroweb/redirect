@@ -72,6 +72,25 @@ on our API rather than parse the HTML below, we have XML and JSON available.
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
 </p>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tempus leo. Pellentesque ornare enim sed varius accumsan. In lacinia egestas mi, a mollis enim sodales sed. In nec enim a risus varius euismod. Morbi vel elementum massa, nec facilisis mi. Donec nibh sem, suscipit quis arcu vitae, porttitor tincidunt urna. Aliquam gravida massa ac ullamcorper porta. Nulla sit amet blandit nisi. Nullam vitae diam dui. Cras sodales massa a auctor molestie. Donec at consectetur quam. Vestibulum a ligula rhoncus, tempus est non, viverra est. Ut sapien est, auctor et purus ac, ultrices feugiat tortor. In pretium scelerisque purus vestibulum aliquam.
+</p>
 <p>
 Nullam vitae velit eu arcu maximus feugiat. Vestibulum dictum aliquam dolor id ultrices. Nullam tempor diam est, nec commodo odio euismod sed. Aliquam varius quis eros nec consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce dictum, tellus vel tincidunt dictum, nulla erat accumsan lectus, eu vulputate nisi sem ac nibh. Praesent vitae ex velit. Pellentesque vitae libero elit. Pellentesque dictum massa nisi, nec accumsan dui sollicitudin blandit. Sed aliquam porttitor cursus. Morbi semper risus sit amet urna facilisis, in bibendum ante hendrerit. Mauris sit amet diam eu massa pellentesque suscipit. Sed ornare malesuada odio, ullamcorper vehicula mauris consequat ut. Pellentesque non justo fermentum, congue magna quis, sagittis quam. Etiam varius arcu nec purus vestibulum, id rhoncus neque sodales.
 </p>
@@ -111,39 +130,29 @@ Donec cursus nulla sit amet velit tempus, nec dapibus lectus interdum. Phasellus
 
 
 </div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js">
-</script>
-</script>
-<script type="text/javascript">
-
-//en segundos y luego se transforma a milisegundos multiplicandose por mil
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"> </script>
+<script type="text/javascript"> 
 var tiempo = 1;
-//tiempo aleatoro
-// var tiempo = Math.random()*10;
-//cantidad de pixeles por desplazamiento
 var pixel = 200;
-var pixelhasta = 600;
-	$(document).ready(function () {
-		console.log(tiempo);
-
-
-    setInterval(function () {
+var pixelhasta = 1000;
+var down = true
+var myVar = setInterval(function(){ myTimer() }, 2000);
+function myTimer() {
         var iScroll = $(window).scrollTop();
-       
-
-        if (iScroll<pixelhasta) {
-        	 iScroll = iScroll + pixel;
-        	console.log("baja");
+        if (iScroll < pixelhasta && down)
+            iScroll += pixel;
+        else {
+	          iScroll -= pixel;
+            down = false
         }
-        else {console.log("sube");
- iScroll = iScroll - pixel;
-    }
-    	console.log(iScroll);
+            
+         if (!iScroll) clearInterval(myVar);
+          
         $('html, body').animate({
-            scrollTop: iScroll
+          scrollTop: iScroll
         }, tiempo*1000);
-    }, 2000);
-});
+}
+
 </script>
 </body>
 </html>
