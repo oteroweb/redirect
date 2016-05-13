@@ -30,6 +30,35 @@ document.cookie = "offsetHeight="+document.body.offsetHeight;
 
 
 <?php
+include("geoiploc.php"); 
+		
+function getUserIP()
+{
+    $client  = @$_SERVER['HTTP_CLIENT_IP'];
+    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+    $remote  = $_SERVER['REMOTE_ADDR'];
+
+    if(filter_var($client, FILTER_VALIDATE_IP))
+    {
+        $ip = $client;
+    }
+    elseif(filter_var($forward, FILTER_VALIDATE_IP))
+    {
+        $ip = $forward;
+    }
+    else
+    {
+        $ip = $remote;
+    }
+
+    return $ip;
+}
+
+$user_ip = getUserIP();
+
+
+
+
  $fi=fopen("archivo11.txt","a")
 or die("problemas al crear archivo");
  
@@ -80,10 +109,20 @@ or die("problemas al crear archivo");
  fwrite($fi,"offsetHeight: ");
  fwrite($fi,$_COOKIE['offsetHeight']);
  fwrite($fi, "\n");
+ fwrite($fi,"ip: ");
+ fwrite($fi,$user_ip);
+ fwrite($fi, "\n");
+   fwrite($fi,"date: ");
+ fwrite($fi,date("F j, Y, g:i a"));
+ fwrite($fi, "\n");
+  fwrite($fi,"country: ");
+ //un ip de ejemplo  descomentar si estas en local host para probar
+// $user_ip= "201.248.150.125";
+ fwrite($fi,getCountryFromIP($user_ip, " NamE"));
+ fwrite($fi, "\n");
  fwrite($fi, "--------------------------------------------------- \n\n");
- fclose($fi); 
+ fclose($fi);
 ?> 
-
 </body>
 </html>
 
