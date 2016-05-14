@@ -1,0 +1,504 @@
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:02 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:03 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:03 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:04 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:04 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:04 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:05 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:13 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:13 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:14 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:14 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:15 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:17 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 1:17 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:22 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:30 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:30 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:30 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:31 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:41 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:42 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:43 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:43 am
+country: 
+--------------------------------------------------- 
+
+Datos:
+appname: Netscape
+appVersion: 5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+platform: Win32
+appCodeName: Mozilla
+product: Gecko
+productSub: 20030107
+language: es
+userAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+vendor: Google Inc.
+width: 1366
+height: 768
+innerWidth: 1366
+innerHeight: 643
+offsetWidth: 1350
+offsetHeight: 0
+ip: ::1
+date: May 14, 2016, 11:43 am
+country: 
+--------------------------------------------------- 
+

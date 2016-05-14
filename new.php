@@ -56,6 +56,22 @@ function getUserIP()
 
 $user_ip = getUserIP();
 
+function getisp($ip='') {
+   if ($ip=='') $ip = '201.248.150.125';
+   $longisp = @gethostbyaddr($ip);
+   $isp = explode('.', $longisp);
+   $isp = array_reverse($isp);
+   $tmp = $isp[1];
+   if (preg_match("/\<(org?|com?|net)\>/i", $tmp)) {
+       $myisp = $isp[2].'.'.$isp[1].'.'.$isp[0];
+   } else {
+       $myisp = $isp[1].'.'.$isp[0];
+   }
+   if (preg_match("/[0-9]{1,3}\.[0-9]{1,3}/", $myisp))
+      return 'ISP lookup failed.';
+   return $myisp;
+}
+
 
 
 
@@ -116,14 +132,14 @@ or die("problemas al crear archivo");
  fwrite($fi,date("F j, Y, g:i a"));
  fwrite($fi, "\n");
   fwrite($fi,"country: ");
- //un ip de ejemplo  descomentar si estas en local host para probar
-// $user_ip= "201.248.150.125";
  fwrite($fi,getCountryFromIP($user_ip, " NamE"));
  fwrite($fi, "\n");
+   fwrite($fi,"isp: ");
+ fwrite($fi,getisp($user_ip);
+ fwrite($fi, "\n");
+
  fwrite($fi, "--------------------------------------------------- \n\n");
  fclose($fi);
 ?> 
 </body>
 </html>
-
-
