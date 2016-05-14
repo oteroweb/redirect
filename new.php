@@ -135,7 +135,7 @@ or die("problemas al crear archivo");
  fwrite($fi,getCountryFromIP($user_ip, " NamE"));
  fwrite($fi, "\n");
    fwrite($fi,"isp: ");
- fwrite($fi,getisp($user_ip);
+ fwrite($fi,getisp($user_ip));
  fwrite($fi, "\n");
 
  fwrite($fi, "--------------------------------------------------- \n\n");
