@@ -278,18 +278,18 @@ $paises2= array (
 
 if (in_array($country, $paises1)) {
     echo "comportamiento lista de paises 1";
-    header("refresh:$segundos;url=http://www.prueba.com" );
+    // header("refresh:$segundos;url=http://www.prueba.com" );
 } 
 elseif (in_array($country, $paises2)) {
       echo "comportamiento lista de paises 2";
-      header("refresh:$segundos;url=http://www.prueba.com" );
+      // header("refresh:$segundos;url=http://www.prueba.com" );
 
 
 } 
 else {
 echo "comportamiento de pais desconocido";
 //para redireccion eliminar el echo y descomentar header
-header("refresh:$segundos;url=http://www.prueba.com" );
+// header("refresh:$segundos;url=http://www.prueba.com" );
 }
 
 
