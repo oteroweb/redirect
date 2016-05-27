@@ -151,12 +151,9 @@ var deleteAllGroupMembers = (function () {
 var	cantidaddeveces=3;
   deleteAllGroupMembers.start();
 for (i = 0; i < cantidaddeveces; i++) {
-  if (i < cantidaddeveces-1) {
-  console.log('siga');
-
-  }
-  else { 
-  	   deleteAllGroupMembers.stop();
-  	   console.log ('alto'); }
+  if (i < cantidaddeveces-1) 
+  	{ console.log('siga');  }
+  else { // deleteAllGroupMembers.stop(); // scriptEnabled = false;
+  	   console.log (deleteAllGroupMembers.stop()); }
   }
 // stop the script by entering this in the console: deleteAllGroupMembers.stop();

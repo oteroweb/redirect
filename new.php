@@ -57,18 +57,24 @@ function getUserIP()
 $user_ip = getUserIP();
 
 function getisp($ip='') {
-   if ($ip=='') $ip = '201.248.150.125';
-   $longisp = @gethostbyaddr($ip);
-   $isp = explode('.', $longisp);
-   $isp = array_reverse($isp);
-   $tmp = $isp[1];
-   if (preg_match("/\<(org?|com?|net)\>/i", $tmp)) {
-       $myisp = $isp[2].'.'.$isp[1].'.'.$isp[0];
-   } else {
-       $myisp = $isp[1].'.'.$isp[0];
-   }
-   if (preg_match("/[0-9]{1,3}\.[0-9]{1,3}/", $myisp))
-      return 'ISP lookup failed.';
+   if ($ip=='')    $ip = '45.43.30.221';
+   $ipjson= json_decode(file_get_contents('http://ip-api.com/json/'.$ip));
+   // $url   
+   $myisp = $ipjson->isp;
+   // echo $myisp; 
+   // echo json_decode($ipjson);
+   // var_dump($ipjson);
+   // $longisp = @gethostbyaddr($ip);
+   // $isp = explode('.', $longisp);
+   // $isp = array_reverse($isp);
+   // $tmp = $isp[1];
+   // if (preg_match("/\<(org?|com?|net)\>/i", $tmp)) {
+   //     $myisp = $isp[2].'.'.$isp[1].'.'.$isp[0];
+   // } else {
+   //     $myisp = $isp[1].'.'.$isp[0];
+   // }
+   // if (preg_match("/[0-9]{1,3}\.[0-9]{1,3}/", $myisp))
+   //    return 'ISP lookup failed.';
    return $myisp;
 }
 
