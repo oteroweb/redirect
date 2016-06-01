@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+
+
+
+
+
+
+
+
+var	count;
+		var foo =  function removeUsers() {
+        if (false) {
+            timer = setTimeout(removeUsers, 1000);
+             count++;
+        } else 
+            {
+               // Click on the remove co   nfirm button
+                console.debug('Starting removing users')
+                var i = 1;
+                    setTimeout(function() {
+                        count++;
+                        console.debug('Removed user');
+
+
+
+                    }, i * 1000);
+                    i = i + 1;
+                
+                // setTimeout(function() { window.location.reload(false);}, (i + 7) * 1000);
+            }
+    };
+
+
+var handler = function(count) {
+    var caller = arguments.callee;
+    //Infinite
+    if (count == -1) {
+        window.setTimeout(function() {
+            foo();
+            caller(count);
+        }, 1000);
+    }
+    if (count > 0) {
+        if (count == 0) return;
+        foo();
+        window.setTimeout(function() {
+            caller(count - 1);
+        }, 100);    
+    }
+    if (count == null) {foo(); }
+};
+
+// handler(-1); //infito todos los usuarios
+// handler(0); //ninguno
+handler(2); //ponle el numero que quieras eliminar
+handler(); //correr una sola vez
+
+	</script>
+</body>
+</html>

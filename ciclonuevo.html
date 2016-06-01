@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+var myVar;
+ function removeUsers() {
+console.log('en remove useres');
+var count = 1;
+        if (count < 5) {
+            timer = setTimeout(removeUsers, 1000);
+             count++;
+        } else 
+            {
+               // Click on the remove co   nfirm button
+                console.debug('Starting removing users')
+                var i = 1;
+                    setTimeout(function() {
+                        count++;
+                        console.debug('Removed user');
+                        console.log(count);
+
+
+
+                    }, i * 1000);
+                    i = i + 1;
+                
+                setTimeout(function() {
+                    window.location.reload(false); 
+                }, (i + 7) * 1000);
+            }
+    }
+
+function myFunction() {
+    myVar = setTimeout(function(){ removeUsers(); }, 1000);
+    console.log('haciendo');
+}
+function myStopFunction() {
+    clearTimeout(myVar);
+    console.log('detenido');
+}
+
+count = 1;
+if (count < 5) {
+	myFunction();
+	console.log(count);
+    console.log('haciendox2');
+    count = count + 1;
+
+} else {
+	myStopFunction();
+    console.log('detenidox2');
+
+}
+
+
+	function ejecutar(cantidadVeces,funcion){
+  if (cantidadVeces > 0){
+       
+      cantidadVeces -= 1;
+      ejecutar(cantidadVeces,removeUsers());
+  }
+}
+// ejecutar(5,function(){console.log('Cesar tiene paciencia!')}); 
+</script>
+
+
+</body>
+</html>
