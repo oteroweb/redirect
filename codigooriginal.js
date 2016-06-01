@@ -62,7 +62,7 @@ var FBClearGroup = function() {
                 var contador=0;
             confirmButton.forEach(function(item) 
             {   setTimeout(function() { contador = contador + 1; 
-                console.log(contador); 
+                // console.log(contador); 
                 if (contador <= veces) { item.click(); console.debug('Removed user'); }
                 else { var CancelButton =Array.prototype.slice.call(document.querySelectorAll('.layerCancel.uiOverlayButton'));  
                         CancelButton.forEach(function(item) {
