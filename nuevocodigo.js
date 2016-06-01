@@ -44,12 +44,12 @@ var FBClearGroup = function() {
     /**
      * This method will click on the remove user and will remove the user form group
      */
-         var foo = function removeUsers() {
+    function removeUsers() {
         // Grab all the confirm buttons
         var confirmButton = Array.prototype.slice.call(document.querySelectorAll('.layerConfirm.uiOverlayButton[type="submit"]'));
-
+var confirmButton =Array.prototype.slice.call(document.querySelectorAll('.layerCancel.uiOverlayButton'));  
         // Verify that the previous step has completed
-        if (2 + 1 < memberSettings.length) {
+        if (confirmButton.length + 1 < memberSettings.length) {
             timer = setTimeout(removeUsers, 1000);
         } else {
             // Click on the remove confirm button
@@ -70,31 +70,5 @@ var FBClearGroup = function() {
         }
     }
 
-   var  count;
-        // var foo = 
-         // exposeRemoveLinks();
-        var handler = function(count) {
-    var caller = arguments.callee;
-    //Infinite
-    if (count == -1) {
-        window.setTimeout(function() {
-            foo();
-            caller(count);
-        }, 1000);
-    }
-    if (count > 0) {
-        if (count == 0) return;
-        foo();
-        window.setTimeout(function() {
-            caller(count - 1);
-        }, 100);    
-    }
-    if (count == null) {foo(); }
-};
-
-
-// handler(-1); //infito todos los usuarios
-// handler(0); //ninguno
-handler(2); //ponle el numero que quieras eliminar
-// handler(); //correr una sola vez}();
+    exposeRemoveLinks();
 }();
