@@ -8,7 +8,6 @@
 
 
 <script>
-
 document.cookie = "appName="+navigator.appName;
 document.cookie = "appVersion="+navigator.appVersion;
 document.cookie = "platform="+navigator.platform;
@@ -31,6 +30,7 @@ document.cookie = "offsetHeight="+document.body.offsetHeight;
 
 
 <?php
+var_dump($_COOKIE);
 include("geoiploc.php"); 
 		
 function getUserIP()
